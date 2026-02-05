@@ -21,12 +21,12 @@ body {
 }
 
 .night {
-  position: fixed;
+  /* position: fixed;
   left: 50%;
-  top: 0;
+  top: 0; */
   transform: translateX(-50%);
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   filter: blur(0.1vmin);
   background: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* Darker overlay */
